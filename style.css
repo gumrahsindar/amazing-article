@@ -41,6 +41,10 @@ body {
     transform: transform 0.5s linear;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
 .circle button {
     cursor: pointer;
     position: absolute;
@@ -69,7 +73,7 @@ body {
 
 .container.show-nav+nav li {
     transform: translateX(0);
-    transition-delay: 3.s;
+    transition-delay: 0.3s;
 }
 
 nav {
