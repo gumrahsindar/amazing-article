@@ -38,7 +38,7 @@ body {
     width: 200px;
     border-radius: 50%;
     position: relative;
-    transform: transform 0.5s linear;
+    transition: transform 0.5s linear;
 }
 
 .container.show-nav .circle {
